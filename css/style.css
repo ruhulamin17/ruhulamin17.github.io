@@ -1,0 +1,221 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Wrapper{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1315px;
+    min-width: 1315px;
+    height: auto;
+    background-color: #E4E4E4;
+    overflow: hidden;
+    
+}
+.left{
+    width: 28%;
+    max-width: 400px;
+    height: 610px;
+    margin: 15px;
+    background-color: white;
+    border: 1px solid #009688;
+    float: left;
+    overflow: hidden;
+}
+.left .pic{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+.left .pic img{
+    width: 100%;
+    height: 400px;
+}
+.left .pic h2{
+    position: absolute;
+    top:328px;
+    left: 0px;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 10px;
+    background-color: #009688;
+}
+.left span{
+    margin-left: 10px;
+    margin-top: 5px;
+    color: #009688;
+    font-size: 30px;
+    float: left;
+}
+.left p{  
+   font-size: 14px;
+    margin-left: 15px;
+    margin-top: 0px;
+    color: #989898;
+
+}
+.left h5{
+    margin-left: 15px;
+    margin-top: 15px;
+    color: #989898;
+}
+.left a{
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 13px;
+    color: #009688;
+}
+.left a:hover{
+    text-decoration: none;
+    color: #009688;
+}
+.header{
+    width: 70%;
+    max-width: 900px;
+    height: 100px;
+    position: relative;
+    margin-left: 5px;
+    margin-top: 15px;
+    background-color: white;
+    border: 1px solid #009688;
+    float: left;
+
+
+}
+.header p{
+    margin-top: 35px;
+    margin-left: 5px;
+    font-size: 25px;
+    color: #777777;
+}
+.header .dropbtn {
+    background-color: #009688;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+    left: 825px;
+    padding:10px;
+    font-size: 16px;
+    border: none;
+  }
+  
+.header .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+.header .dropdown-content {
+    display: none;
+    position: absolute;
+    left: 750px;
+    background-color:black;
+    min-width: 155px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+.header .dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.header .dropdown-content a:hover {
+      background-color:#009688;
+      text-decoration: none;
+      color: white;
+    }
+  
+.header .dropdown:hover .dropdown-content {
+      display: block;
+    }
+.mid{
+    width: 70%;
+    max-width: 900px;
+    height: 495px;
+    background-color: white;
+    border: 1px solid #009688;
+    float: left;
+    margin-left: 5px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.mid p{
+    margin: 20px;
+    color: #777777;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mid h2{
+    margin: 15px;
+    color: #36AA9F;
+    display: inline;
+    border-bottom: 3px solid #36AA9F;
+    font-family: 'Times New Roman', Times, serif;
+}
+.mid ul{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+.mid img{
+    width: 40px;
+    height: 40px;
+    margin-left:15px;
+    margin-top: 20px;
+}
+.mid h4{
+    margin-top: 50px;
+    margin-left: 20px;
+    color: red;
+}
+.Emid{
+    width: 70%;
+    max-width: 900px;
+    height: auto;
+    background-color: white;
+    border: 1px solid #009688;
+    float: left;
+    margin-left: 5px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.Emid h3{
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 0.5px solid #480F00;
+    padding-top: 20px;
+}
+.Emid h6{
+    margin-left: 20px;
+    margin-right: 20px;
+    color:#009688;
+   
+}
+.Emid h5{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #777777;
+    border-bottom: 0.5px solid #480F00;
+    padding-bottom: 20px;
+}
+.footer{
+    width: 100%;
+    max-width: 1320px;
+    height: 100px;
+    background-color: #009688;
+    float: left;
+    margin:5px ;
+}
+.footer p{
+    text-align: center;
+    margin-top: 45px;
+    font-size: 20px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
