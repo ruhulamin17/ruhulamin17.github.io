@@ -5,17 +5,16 @@
 .Wrapper{
     margin: 0 auto;
     width: 100%;
-    max-width: 1315px;
-    min-width: 1315px;
+    max-width: 960px;
     height: auto;
     background-color: #E4E4E4;
     overflow: hidden;
     
 }
 .left{
-    width: 28%;
-    max-width: 400px;
-    height: 610px;
+    width:100%;
+    max-width: 265px;
+    height: 640px;
     margin: 15px;
     background-color: white;
     border: 1px solid #009688;
@@ -71,9 +70,10 @@
     text-decoration: none;
     color: #009688;
 }
+
 .header{
-    width: 70%;
-    max-width: 900px;
+    width: 100%;
+    max-width: 655px;
     height: 100px;
     position: relative;
     margin-left: 5px;
@@ -94,8 +94,8 @@
     background-color: #009688;
     color: white;
     position: absolute;
-    bottom: 0px;
-    left: 825px;
+    bottom: 10px;
+    left: 582px;
     padding:10px;
     font-size: 16px;
     border: none;
@@ -109,7 +109,7 @@
 .header .dropdown-content {
     display: none;
     position: absolute;
-    left: 750px;
+    left: 490px;
     background-color:black;
     min-width: 155px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -132,9 +132,9 @@
       display: block;
     }
 .mid{
-    width: 70%;
-    max-width: 900px;
-    height: 495px;
+    width: 100%;
+    max-width: 655px;
+    height: 525px;
     background-color: white;
     border: 1px solid #009688;
     float: left;
@@ -174,9 +174,9 @@
     color: red;
 }
 .Emid{
-    width: 70%;
-    max-width: 900px;
-    height: auto;
+    width: 100%;
+    max-width: 655px;
+    height: 525px;
     background-color: white;
     border: 1px solid #009688;
     float: left;
@@ -210,7 +210,6 @@
     height: 100px;
     background-color: #009688;
     float: left;
-    margin:5px ;
 }
 .footer p{
     text-align: center;
