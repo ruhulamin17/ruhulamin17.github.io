@@ -13,9 +13,10 @@
 }
 .left{
     width:100%;
-    max-width: 280px;
+    max-width: 290px;
     height: 640px;
     margin: 15px;
+    margin-right:5px;
     margin-left:0;
     background-color: white;
     border: 1px solid #C20037;
@@ -194,6 +195,7 @@
     padding-top: 20px;
 }
 .Emid h6{
+    font-size: 15px;
     margin-left: 20px;
     margin-right: 20px;
     color:#C20037;
@@ -205,6 +207,21 @@
     color: #777777;
     border-bottom: 0.5px solid #480F00;
     padding-bottom: 20px;
+}
+.Emid p{
+    color: red;
+}
+.stab{
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.stab td{
+    font-size: 14px;
+    padding: 6px;
+    
+}
+.a{
+    color:#777777 ;
 }
 .footer{
     width: 100%;
