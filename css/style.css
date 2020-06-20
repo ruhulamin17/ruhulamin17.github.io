@@ -211,6 +211,41 @@
 .Emid p{
     color: red;
 }
+.Pmid{
+    width: 100%;
+    max-width: 655px;
+    height: 525px;
+    background-color: white;
+    border: 1px solid #C20037;
+    float: left;
+    margin-left: 5px;
+    margin-top: 15px;
+    overflow: hidden;
+}
+.Pmid h3{
+    color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 0.5px solid #480F00;
+    padding-top: 20px;
+}
+.Pmid h6{
+    font-size: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color:#C20037;
+   
+}
+.Pmid h5{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #777777;
+    border-bottom: 0.5px solid #480F00;
+    padding-bottom: 20px;
+}
+.Pmid p{
+    color: red;
+}
 .stab{
     margin: 0 auto;
     margin-top: 20px;
