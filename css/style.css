@@ -214,7 +214,7 @@
 .Pmid{
     width: 100%;
     max-width: 655px;
-    height: 525px;
+    height:auto;
     background-color: white;
     border: 1px solid #C20037;
     float: left;
