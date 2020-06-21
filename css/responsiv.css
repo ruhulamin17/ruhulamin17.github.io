@@ -1,12 +1,16 @@
-@media only screen and (max-width: 375px) { 
+@media only screen and (max-width: 450px) { 
 	.left{
         width:100%;
         min-width:375px;
+        margin-top: 0px;
+        margin-bottom: 0px;
         
 	}
 	.header{
         width:100%;
-        min-width:360px;
+        max-width:375px;
+        margin-top: 10px;
+        margin-left: 0px;
 		
     }
     .header .dropbtn {
@@ -19,63 +23,32 @@
       }
 	.mid{
         width:100%;
-        min-width:375px;
+        height:auto;
+        max-width:375px;
+        margin-top: 10px;
+        margin-left: 0px;
 	
     }
     .Emid{
         width:100%;
-        min-width:375px;
+        height:auto;
+        max-width:375px;
+        margin-top: 10px;
+        margin-left: 0px;
 	
     }
     .Pmid{
         width:100%;
-        min-width:375px;
+        height:auto;
+        max-width:375px;
+        margin-top: 10px;
+        margin-left: 0px;
 	
     }
     .footer{
         width:100%;
-        min-width:375px;
+        max-width:375px;
+        margin-top: 10px;
 
 	}
  }
-@media only screen and (max-width: 414px) { 
-	.left{
-        width:100%;
-        min-width:375px;
-	}
-	.header{
-        width:100%;
-        min-width:375px;
-		
-    }
-    .header .dropbtn {
-        bottom: 10px;
-        left: 300px;
-      }
-      .header .dropdown-content {
-        top: -9px;
-        left: 205px;
-      }
-    
-	.mid{
-        width:100%;
-        min-width:375px;
-	
-    }
-    .Emid{
-        width:100%;
-        min-width:375px;
-	
-    }
-    .Pmid{
-        width:100%;
-        min-width:375px;
-	
-    }
-    .footer{
-        width:100%;
-        min-width:375px;
-
-	}
- } 
-  
