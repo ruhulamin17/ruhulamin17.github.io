@@ -214,13 +214,13 @@
 .Pmid{
     width: 100%;
     max-width: 655px;
-    height:auto;
+    height:525px;
     background-color: white;
     border: 1px solid #C20037;
     float: left;
     margin-left: 5px;
     margin-top: 15px;
-    overflow: hidden;
+    overflow: scroll;
 }
 .Pmid h3{
     color: black;
