@@ -133,15 +133,6 @@
   
 .header .dropdown:hover .dropdown-content {
       display: block;
-      z-index:100;
-      opacity:2;
-      filter:alpha(opacity=100);
-      zoom:2;
-      -webkit-transition:all .6s ease-in;
-      -moz-transition:all .6s ease-in;
-      -ms-transition:all .6s ease-in;
-      -o-transition:all .6s ease-in;
-      transition:all .6s ease-in;
     }
 .mid{
     width: 100%;
