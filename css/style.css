@@ -207,6 +207,7 @@
     color: #777777;
     border-bottom: 0.5px solid #480F00;
     padding-bottom: 20px;
+    text-align: justify;
 }
 .Emid p{
     color: red;
@@ -242,6 +243,7 @@
     color: #777777;
     border-bottom: 0.5px solid #480F00;
     padding-bottom: 20px;
+    text-align: justify;
 }
 .Pmid p{
     color: red;
